@@ -1,0 +1,164 @@
+#intro{
+    background-color:#d6e0f0;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    
+}
+body{
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin-top: 0px;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.top-cloud{
+    position: absolute;
+    right:380px;
+    top:50px;
+}
+.bottom-cloud{
+    position: absolute;
+    top:420px;
+    left:370px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: 600;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+.middle-container{
+    width: 60%;
+    margin: auto; 
+}
+.hello{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
+.profile{
+    margin-top: 20px;
+    line-height: 2;
+    border-bottom: 5px;
+    border-top: 8px;
+    border-left: 8px;
+    border-right: 5px;
+    border-style:solid;
+    border-color: #d6e0f0;
+    box-shadow: 15px 20px #ccc2c2;
+}
+.skill-img{
+    width: 30%;
+    float: left;
+    padding-bottom: 110px;
+    
+}
+.skills{
+    border-bottom: 5px;
+    border-top: 8px;
+    border-left: 8px;
+    border-right: 5px;
+    border-style:solid;
+    border-color: #d6e0f0;
+    box-shadow: 15px 20px #ccc2c2;
+    line-height: 2;
+    clear: left;
+    margin-top: 20px;
+}
+
+.contact-me{
+    border-bottom: 5px;
+    border-top: 8px;
+    border-left: 8px;
+    border-right: 5px;
+    border-style:solid;
+    border-color: #d6e0f0;
+    box-shadow: 15px 20px #ccc2c2;
+    padding-bottom: 40px;
+    line-height: 2;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.education{
+    border-bottom: 5px;
+    border-top: 8px;
+    border-left: 8px;
+    border-right: 5px;
+    border-style:solid;
+    border-color: #d6e0f0;
+    box-shadow: 15px 20px #ccc2c2;
+    line-height: 2;
+    margin-top: 20px;
+    
+}
+.bottom-container{
+    line-height: 3;
+    background-color: #d6e0f0;
+    margin: 0%;
+    padding: 0%;
+}
+.btn{
+    padding: 5px 30px;
+    border: 6px;
+    border-style: solid;
+    text-decoration: none;
+    color: #d6e0f0;
+    border-color: #11999E;
+    background-color: black;
+    transition: all 0.5s;
+}
+.footer-link{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: black;
+    padding: 10px;
+    
+}
+.footer-link:hover{
+    cursor: pointer;
+    color: #11999E;
+}
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
